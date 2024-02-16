@@ -1,0 +1,8 @@
+DROP TABLE persons IF EXISTS;
+
+CREATE TABLE persons(
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(20),
+    lastname VARCHAR(20),
+    dni VARCHAR(8)
+);
